@@ -22,7 +22,9 @@
 	</ul>
 	</nav>
 
-
+<section id="photo"> <img src="ratissage.jpg" title="ratissage"
+		alt="ratissage" id="ratissage" />
+		</section>
 
 	<div id="addEmploye">
 		<form action="AjoutEmployeServlet" method="get">

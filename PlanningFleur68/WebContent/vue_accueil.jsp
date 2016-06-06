@@ -22,7 +22,7 @@
 
 			<!-- Panneau de gauche -->	
 			<section id="photo">
-				<img src="equipe.jpg" title="ma photo" alt="ma photo" id="maphoto"/>
+				<img src="equipe.jpg" title="equipe" alt="equipe" id="equipe"/>
 				
 </div>
 			</section>
