@@ -89,7 +89,7 @@ public class AjoutTacheServlet extends HttpServlet {
 		}
 
 		request.setAttribute("bean", bean);
-		request.getRequestDispatcher("/vue_ajoutemploye.jsp").forward(request, response);
+		request.getRequestDispatcher("/vue_ajouttache.jsp").forward(request, response);
 
 	}
 
