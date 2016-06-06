@@ -28,17 +28,17 @@
 
 	<div id="addTache">
 		<form action="AjoutTacheServlet" method="get">
-			Type de tâche: <input type="text" NAME="TYPEDETACHE" value="${bean.TypeDeTache}" /><br />
-			Adresse : <input type="text" NAME="ADRESSE" value="${bean.Adresse}" /><br />
+			Type de tâche: <input type="text" NAME="TYPEDETACHE" value="${bean.typeDeTache}" /><br />
+			Adresse : <input type="text" NAME="ADRESSE" value="${bean.adresse}" /><br />
 			Nom : <input type="text" NAME="NOM" value="${bean.nom}" /><br />
 			Prenom : <input type="text" NAME="PRENOM" value="${bean.prenom}" /><br />
-			Date de début : <input type="text" NAME="DATEDEBUT" value="${bean.DateDeDebut}" /><br />
-			Date de fin : <input type="text" NAME="DATEFIN" value="${bean.DateDeFin}" /><br />
+			Date de début : <input type="text" NAME="DATEDEBUT" value="${bean.DateDebut}" /><br />
+			Date de fin : <input type="text" NAME="DATEFIN" value="${bean.DateFinReal}" /><br />
 			<input type="submit" NAME="SUBDATE" value="valider" />
 		</form>
 	</div>
 
-	<div id="result">${bean.TypeDeTache}${bean.Adresse}${bean.nom}${bean.prenom}${bean.DateDeDebut}${bean.DateDeFin}</div>
+	<div id="result">${bean.typeDeTache}${bean.etat}</div>
 
 
 </body>
