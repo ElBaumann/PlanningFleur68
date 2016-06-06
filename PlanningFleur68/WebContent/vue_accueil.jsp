@@ -17,6 +17,8 @@
 					<li><a href="vue_planning.jsp">Planning</a></li>
 					<li><a href="vue_ajoutemploye.jsp">Gestion des employés</a></li>
 					<li><a href="vue_dispoemploye.jsp">Disponibilité des employés</a></li>
+					<li><a href="vue_ajoutache.jsp">Gestion des	tâches</a></li>
+		
 				</ul>
 			</nav>
 
