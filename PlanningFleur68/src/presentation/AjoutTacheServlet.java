@@ -37,7 +37,7 @@ public class AjoutTacheServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 
-		SimpleDateFormat sdf = new SimpleDateFormat();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
 		AjoutTacheBean bean = new AjoutTacheBean("", "", "","" , "" , "", "");
 		String typeDeTache = "";
