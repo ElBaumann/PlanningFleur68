@@ -50,7 +50,7 @@ nav {
 		
 	}
 	
-	#info, #selectDate, #addEmploye, #selectEmploye, #result {
+	#info, #selectDate, #addEmploye, #selectEmploye, #result, #addTache {
 		margin-top: 50px;
 		text-align: center;		
 	}
