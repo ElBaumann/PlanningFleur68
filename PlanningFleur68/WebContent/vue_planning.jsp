@@ -20,7 +20,10 @@
 		<li><a href="vue_dispoemploye.jsp">Disponibilité des employés</a></li>
 	</ul>
 	</nav>
-
+	
+<section id="photo"> <img src="plantation.jpg" title="plantation"
+		alt="plantation" id="plantation" />
+</section>
 
 
 	<div id="selectDate">
